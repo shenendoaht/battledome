@@ -6,9 +6,9 @@ button {
   width: auto;
   box-shadow: 2px 2px 2px darkgray;
   border: .5px solid blue;
+  cursor: pointer;
 }
 button:hover, button:focus {
-  cursor: pointer;
   background-color: rgb(49, 165, 211);
   transition-delay: 100ms;
   transition-duration: 1s;
