@@ -1,0 +1,98 @@
+button { 
+  margin: 10px auto;
+  border-radius: 20%;
+  padding: 3px 12px;
+  height: auto;
+  width: auto;
+  box-shadow: 2px 2px 2px darkgray;
+  border: .5px solid blue;
+  cursor: pointer;
+}
+button:hover, button:focus {
+  background-color: rgb(49, 165, 211);
+  transition-delay: 100ms;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  box-shadow: 3px 3px 5px black;
+}
+.explore, .search, .action, .talk, .take {
+  margin: 10px 50%;
+}
+.talk {
+  margin-top: 70%;
+  height: auto;
+  width: auto;
+  background-color: lightgray;
+}
+.talk:hover, .talk:focus {
+  padding: 5px 15px;
+  cursor: grab;
+  background-color: aqua;
+  transition-delay: .2s;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.search:hover, .search:focus{
+  padding: 10px;
+  cursor: grab;
+}
+.choice-buttons {
+  display: none;
+  justify-content: space-evenly;
+}
+#stat-btn {
+  height: 50px;
+  width: 50px;
+  background-image: url('/img/elements/r20die.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  font-weight: bold;
+  margin: 20px auto;
+  border: none;
+  display: none;
+}
+#stat-btn:hover {
+  height: 75px;
+  width: 75px;
+  cursor: grab;
+}
+#readyBtn {
+  display: none;
+}
+.nav-btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+#hullBtn{
+  justify-content: space-around;
+}
+button.item {
+  margin-left: 55px;
+}
+button.buy {
+  margin-top: 60px;
+}
+#shipBtn {
+  display: none;
+}
+#quadBtns, 
+#orcBtns, 
+#gobBtns, 
+#banditBtns, 
+#golemBtns, 
+#minotaurBtns, 
+#gladiatorBtns, 
+#berserkBtns, 
+#guardianBtns, 
+#giantBtns, 
+#thiefBtns, 
+#trollBtns,
+#guardOneBtns,
+#guardTwoBtns,
+#witchBtns,
+#invaderOneBtns,
+#invaderTwoBtns {
+  display: none;
+  justify-content: space-between;
+}
