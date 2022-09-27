@@ -1,0 +1,156 @@
+/* DISPLAYS */
+.modal {
+  display: none;
+  background: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100%;
+}
+#login {
+  background-image: url('/img/locations/welcome.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#landing {
+  background-image: url('/img/locations/welcome.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: transparent;
+}
+#town {
+  background-image: url('/img/locations/main-town.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#house {
+  background-image: url('/img/locations/house.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bedroom {
+  background-image: url('/img/locations/bedroom.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#shop {
+  background-image: url('/img/locations/shop.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#tavern {
+  background-image: url('/img/locations/tavern.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#inn {
+  background-image: url('/img/locations/inn.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#arena {
+  background-image: url('/img/locations/arena-ext.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#quad {
+  background-image: url('/img/locations/stage.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#battledome {
+  background-image: url('/img/locations/arena.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#armory{
+  background-image: url('/img/locations/armory.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}      
+#river{
+  background-image: url('/img/locations/river.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}     
+#clearing{
+  background-image: url('/img/locations/clearing.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}   
+#dock{
+  background-image: url('/img/locations/dock.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}   
+#ship{
+  background-image: url('/img/locations/ship.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hull {
+  background-image: url('/img/locations/hull.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#island{
+  background-image: url('/img/locations/island.dock.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+#village{
+  background-image: url('/img/locations/town.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+#outskirt{    
+  background-image: url('/img/locations/outskirts.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+#mountain{
+  background-image: url('/img/locations/mountain-path.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#temple{
+  background-image: url('/img/locations/temple.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}  
+#forest {
+  background-image: url('/img/locations/forestPath.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bridge {
+  background-image: url('/img/locations/bridge.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hut {
+  background-image: url('/img/locations/hut.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#hutInt {
+  background-image: url('/img/locations/int-witch-hut.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#champion {
+  background-image: url('/img/locations/chest.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+#hell {
+  background-image: url('/img/locations/hell.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+} 
+/* ----------------------------- */

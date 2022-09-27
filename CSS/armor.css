@@ -1,0 +1,45 @@
+.armor {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(0, 0, 128, 0.59);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 20%;
+  padding: 5px;
+}
+#armor, #weapons {
+  display: none;
+  justify-content: space-around;
+}
+#helm {
+  margin-top: 20px;
+  background-image: url('/img/items/helm.png');
+  display: none;
+}
+#flipFlops {    
+  background-image: url('/img/armor/flipFlops.png');
+}
+#gauntlet{
+  background-image: url('/img/armor/gauntlet.png');
+}
+#chainmail{
+  background-image: url('/img/armor/chainmail.png');
+}
+#bowlingShoes{
+  background-image: url('/img/armor/bowlingShoes.png');
+}
+#topHat{
+  background-image: url('/img/armor/topHat.png');
+}
+#shield {
+  height: 70px;
+  width: 70px;
+  background-image: url('/img/items/shield.png');
+  display: none;
+}
+#leatherGloves {
+  height: 70px;
+  width: 70px;
+  background-image: url('/img/items/gloves.png');
+  display: none;
+}

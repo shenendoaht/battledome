@@ -1,0 +1,40 @@
+.content {
+  min-height: 200px;
+  max-height: auto;
+  max-width: 100%;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+.modal {
+  height: auto;
+  width: auto;
+  min-height: 100vh;
+  max-width: 100vw;
+  background-color: transparent;
+}
+#townCont, 
+#tavCont, 
+#innCont, 
+#shopCont, 
+#arenaCont, 
+#quadCont, 
+#armoryCont, 
+#battleCont,
+#forestCont,
+#bridgeCont,
+#riverCont,
+#clearingCont,
+#hutCont,
+#hutIntCont, 
+#dockCont, 
+#shipCont, 
+#hullCont,
+#IslandCont,
+#villageCont,
+#outskirtCont,
+#mountainCont,
+#templeCont,
+#championCont,
+#hellCont {
+  display: none;
+}

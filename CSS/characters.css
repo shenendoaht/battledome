@@ -1,0 +1,115 @@
+.group {
+  justify-content: space-around;
+  display: flex;
+  padding: 2px;
+  margin: 0 auto;
+}
+.character {
+  height: 200px;
+  width: 200px;
+  margin: 30px auto;
+  display: flex;
+  border-radius: 10%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.undead {
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 10%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+@keyframes burn {
+  0% {transform: rotate(40deg)};
+  10% {transform: rotate(80deg)};
+  20% {transform: rotate(120deg)};
+  30% {transform: rotate(160deg)};
+  40% {transform: rotate(200deg)};
+  50% {transform: rotate(240deg)};
+  60% {transform: rotate(280deg)};
+  70% {transform: rotate(320deg)};
+  80% {transform: rotate(360deg)};
+  90% {transform: rotate(400deg)};
+  100% {transform: rotate(440deg)};
+}
+
+#monk {
+  background-image: url('/img/people/monk.png');
+}
+#old-maid {
+  background-image: url('/img/people/oldwoman.png');
+}
+#bartender {
+  background-image: url('/img/people/bartender.png');
+}
+#drunkard {
+  background-image: url('/img/people/drunkard.png');
+}
+#beggar {
+  background-image: url('/img/people/beggar.png');
+  display: flex;
+}
+#soldier {
+  background-image: url('/img/people/fighter.png');
+  margin: auto 40%;
+}
+#merchant{
+  background-image: url('/img/people/merchant.png');
+  display: flex;
+  justify-content: space-around;
+}
+#captain{
+  background-image: url('/img/people/captain.png');
+}
+#boatswain{
+  background-image: url('/img/people/boatswain.png');
+}
+#captive {
+  background-image: url('/img/people/prisoner.png');
+  display: flex;
+  justify-content: space-around;
+}
+#constable {
+  background-image: url('/img/people/constable.png');
+  display: flex;
+  justify-content: space-around;
+}
+#elder {
+  background-image: url('/img/people/oldwoman.png');
+  display: flex;
+  justify-content: space-around;
+}
+#shepherd{
+  background-image: url('/img/people/shepherd.png');
+  display: flex;
+  justify-content: flex-end;
+}
+#greatMonkHu{
+  background-image: url('/img/people/greatMonkHu.png');
+  display: flex;
+  justify-content: space-around;
+}
+#demon{
+    background-image: url('/img/people/demon.png');
+}
+#lawyer{
+    background-image: url('/img/people/lawyer.png');
+}
+#soul1 {
+  background-image: url('/img/people/soul1.png');
+}
+#soul2 {
+  background-image: url('/img/people/soul2.png');
+}
+#soul3 {
+  background-image: url('/img/people/soul3.png');
+}
+#soul1, #soul2 {
+  animation: burn 15s linear 0s infinite alternate both;
+}

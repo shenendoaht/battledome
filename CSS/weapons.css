@@ -1,0 +1,40 @@
+.weapon {
+  height: 120px;
+  width: 120px;
+  background-color: rgba(180, 15, 15, 0.59);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20%;
+  padding: 5px;
+}
+.weapon.label{
+  margin-top: 20px;
+}
+#inflatableBat {
+  background-image: url('/img/weapons/inflatableBat.png');
+}
+#dagger{
+  background-image: url('/img/weapons/dagger1.png');
+}
+#bow{
+  background-image: url('/img/weapons/longbow1.png');
+}
+#xbow{
+  background-image: url('/img/weapons/xbow.png');
+}
+#broadsword {
+  background-image: url('/img/weapons/broadsword.png');
+}
+#trainingSword {
+  background-image: url('/img/weapons/training-sword.png');
+  display: none;
+}
+#magicStick {
+  background-image: url('/img/weapons/magicStick.png');
+  background-color: transparent;
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  display: none;
+}

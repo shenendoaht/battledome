@@ -1,0 +1,94 @@
+.item {
+  margin: 10px auto;
+  min-height: 10px;
+  min-width: 10px;
+  height: auto;
+  width: auto;
+  padding: 5px;
+  background-size: contain;
+  background-repeat: none;
+  background-color: transparent;
+}
+.itemLabel {
+  /* padding-top: -160px; */
+  display: flex;
+}
+#coins {
+  height: 40px;
+  width: 40px;
+  background-image: url('/img/items/coins.png');
+  display: none;
+}
+#ale {
+  height: 60px;
+  width: 60px;
+  background-image: url('/img/items/ale.png');
+  display: none;
+}
+#mead {
+  height: 60px;
+  width: 60px;
+  background-image: url('/img/items/mead.png');
+  display: none;
+}
+.drinks {
+  display: flex;
+  background-position: center;
+}
+#purse {
+  height: 50px;
+  width: 50px;
+  background-image: url('/img/items/purse.png');
+  display: none;
+}
+#food {
+  height: 75px;
+  width: 75px;
+  margin-top: 75px;
+  background-image: url('/img/items/food.png');
+  display: none;
+}
+#potion {
+  height: 60px;
+  width: 60px;
+  margin-top: 25px;
+  background-image: url("/img/items/potion.png");
+  display: none;
+}
+#shopItems {
+  display: none;
+}
+#key {
+  height: 75px;
+  width: 75px;
+  background-image: url('/img/items/key.png');
+}
+#fishTank {
+  height: 75px;
+  width: 75px;
+  background-image: url('/img/items/fishTank.png');
+}
+#receipt {
+  height: 60px;
+  width: 60px;
+  background-image: url('/img/elements/scroll.png');
+  display: none;
+}
+#arrows {
+  height: 70px;
+  width: 70px;
+  background-image: url('/img/items/arrows.png');
+  display: none;
+}
+#megaPotion {
+  height: 90px;
+  width: 90px;
+  background-image: url('/img/items/megapotion.png');
+  display: none;
+}
+#apple {
+  height: 60px;
+  width: 60px;
+  background-image: url('/img/items/apple.png');
+  display: none;
+}

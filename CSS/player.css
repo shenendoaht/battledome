@@ -1,0 +1,72 @@
+#player-gen {
+  background-color: rgba(0, 45, 293, .2);
+  width: 40%;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+  padding: 2px 5px;
+}
+.player {
+  height: 200px;
+  width: 200px;
+  margin: 10px auto;
+  background-image: url("/img/people/player.png");
+  background-size: contain;
+  background-repeat: none;
+}
+/* #townPlayer,
+#housePlayer,
+#bedPlayer,
+#shopPlayer,
+#tavPlayer,
+#innPlayer,
+#arenaPlayer,
+#quadPlayer,
+#armoryPlayer, 
+#battlePlayer, 
+#dockPlayer, 
+#forestPlayer, 
+#bridgePlayer,
+#riverPlayer, 
+#clearingPlayer,
+#hutPlayer,
+#hutIntPlayer,
+#shipPlayer,
+#hullPlayer,
+#villagePlayer,
+#outskirtPlayer,
+#mtnPlayer,
+#templePlayer,
+#championPlayer {
+  max-width: 100%;
+} */
+#hellPlayer {
+  height: 200px;
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 15px;
+  background-image: url("/img/people/player-dead.png");
+  background-size: contain;
+  background-repeat: none;
+  animation: burn 5s linear 0s infinite alternate both;
+}
+.stats {
+  text-align: center;
+  margin: 10px auto;
+  max-width: 50ch;
+  padding: 10px;
+  background-color: rgba(154, 154, 154, 0.49);
+  color: rgb(33, 0, 31);
+  font-weight: bold;
+}
+#playerDisplay, #stat-btn {
+  display: none;
+}
+#login-credentials {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 5px 10px;
+  background-color: rgba(0, 45, 293, .2);
+} 

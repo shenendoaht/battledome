@@ -1,0 +1,112 @@
+.enemy {
+  height: 200px;
+  width: 200px;
+  margin: 30px auto;
+  border: 3px dashed rgb(0, 166, 255);
+  border-radius: 10%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#dummy {
+  background-image: url('/img/enemies/dummy.png');
+  display: none;
+}
+#dummyStat, 
+#orcStat, 
+#gobStat, 
+#bandStat, 
+#golemStat, 
+#minoStat, 
+#gladStat, 
+#berserkStat, 
+#guardianStat, 
+#giantStat, 
+#thiefStat, 
+#trollStat,
+#guardOneStat,
+#guardTwoStat,
+#witchStat, 
+#invaderOneStat, 
+#invaderTwoStat {
+  background-color: rgba(169, 169, 169, 0.604);
+  text-align: center;
+  color: firebrick;
+  margin: 5px auto;
+  display: block;
+  margin-top: 125px;
+  border-radius: 20%;
+  font-weight: bold;
+}
+
+#orc{
+  background-image: url('/img/enemies/orc.png');
+  display:none;
+}
+#goblin{
+  background-image: url('/img/enemies/goblin.png');
+  display:none;
+}
+#bandit{
+  background-image: url('/img/enemies/bandit.png');
+  display:none;
+}
+#thief{
+  background-image: url('/img/enemies/thief.png');
+  display:none;
+}
+#troll{
+  background-image: url('/img/enemies/troll1.png');
+  display: none;
+}
+#guardOne{
+  background-image: url('/img/enemies/guardOne.png');
+  display:none;
+}
+#guardTwo{
+  background-image: url('/img/enemies/guardTwo.png');
+  display:none;
+}
+#witch{
+  background-image: url('/img/enemies/witchClose.png');
+  display:none;
+}
+#invaderOne{
+  background-image: url('/img/enemies/invaderOne.png');
+  display:none;
+}
+#invaderTwo{
+  background-image: url('/img/enemies/invaderTwo.png');
+  display:none;
+}
+#golem{
+  background-image: url('/img/enemies/golem.png');
+  display:none;
+}
+#minotaur{
+  background-image: url('/img/enemies/minotaur1.png');
+  display:none;
+}
+#gladiator{
+  background-image: url('/img/enemies/gladiator2.png');
+  display:none;
+}
+/* #knight{
+  background-image: url('');
+  display:none;
+} */
+#berserker{
+  background-image: url('/img/enemies/berserker.png');
+  display:none;
+}
+#guardian{
+  background-image: url('/img/enemies/guardian.png');
+  display:none;
+}
+#giant{
+  height: 300px;
+  width: 300px;
+  background-image: url('/img/enemies/giant1.png');
+  display:none;
+}

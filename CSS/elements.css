@@ -1,0 +1,89 @@
+
+#fountain {
+  /* background-image: url("/img/elements/fountain.png");
+  background-size: contain;
+  background-repeat: none;
+  height: 150px;
+  width: 150px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* #itemsList, #weaponsList, #armorList, #winsCount {
+  padding: 5px;
+  color: black;
+  font-weight: bolder;
+} */
+.fight-dice, .battle-dice, .bridge-dice, .clearDice, .outDice {
+  display: flex;
+  justify-content: space-evenly;
+}
+#attack-dice, 
+#def-dice, 
+#bdAttDice, 
+#bdDefDice, 
+#forestAttDice, 
+#forestDefDice,
+#bridgeAttDice,
+#bridgeDefDice,
+#clearAttDice,
+#clearDefDice,
+#outAttDice,
+#outDefDice { 
+  display: none;
+}
+.dice {
+  height: 30px;
+  width: 30px;
+  padding: 15px;
+  border: 1px solid black;
+  box-shadow: 3px, 3px, 3px rgba(0, 0, 139, 0.756);
+  border-radius: 20%;
+  background-color: rgb(232, 220, 198);
+  font: bold;
+  font-size: larger;
+  align-content: center;
+  text-align: center;
+  justify-content: space-between;
+  margin: 50px;
+  display: flex;
+}
+#hellFoot {
+  background-image: url('/img/locations/hellFoot.png');
+  background-size: cover;
+  background-position: center;
+  height: 20%;
+  width: 100%;
+}
+#leaderboard, #inventory {
+  height: 400px;
+  width: 120px;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: wrap;
+  flex-flow: wrap;
+  background-image: url('/img/elements/scroll.png');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  display: none;
+  list-style: none;
+  border-radius: 10%;
+}
+#scroll {
+  background-image: url('/img/elements/scroll.png');
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+  margin: 20px auto;
+  padding: .5em;
+}
+.scrollText{
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5rem;
+
+}
