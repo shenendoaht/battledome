@@ -65,7 +65,6 @@ import {
 
 // NAV BTNS --------------------------------------------------------------------
 document.getElementById("loginBtn").addEventListener("click", landing);
-document.getElementById("loginBtn").addEventListener("touchend", landing);
 
 document.getElementById("readyBtn").addEventListener("click", () => {
   town();
