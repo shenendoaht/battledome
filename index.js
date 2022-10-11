@@ -65,6 +65,7 @@ import {
 
 // NAV BTNS --------------------------------------------------------------------
 document.getElementById("loginBtn").addEventListener("click", landing);
+document.getElementById("loginBtn").addEventListener("touchend", landing);
 
 document.getElementById("readyBtn").addEventListener("click", () => {
   town();
@@ -423,7 +424,7 @@ document.getElementById("coinBtn").addEventListener("click", () => {
   renderTownPlayer();
 });
 document.getElementById("monkBtn").addEventListener("click", () => {
-  document.getElementById("townTalk").innerText = `${characters.Monk.name} ${
+  document.getElementById("townTalk").innerText = `${characters.Monk.name}: ${
     characters.Monk.quotes[
       Math.floor(Math.random() * characters.Monk.quotes.length)
     ]
