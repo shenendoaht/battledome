@@ -64,7 +64,9 @@ import {
 } from "./JS/navs.js";
 
 // NAV BTNS --------------------------------------------------------------------
-document.getElementById("loginBtn").addEventListener("click", landing);
+document.getElementById("loginBtn").addEventListener("click", ()=>{
+  landing();
+});
 
 document.getElementById("readyBtn").addEventListener("click", () => {
   town();
