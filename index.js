@@ -28,7 +28,7 @@ import {
   renderTemplePlayer,
   renderChampion,
   renderDeadPlayer,
-} from "./js/players.js";
+} from "./JS/players.js";
 import { items, weapons, armor } from "./JS/data.js";
 import { characters } from "./JS/char.js";
 import { enemies } from "./JS/enemies.js";
